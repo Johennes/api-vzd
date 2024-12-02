@@ -10,10 +10,10 @@ on:
 
 jobs:
   build:
-    uses: gematik/github-image-actions/.github/workflows/generate-images.yml@e2c64fceeb01fe83b82af8ca1da25a778e0df642
+    uses: gematik/github-image-actions/.github/workflows/generate-images.yml@92102d1ae89eee14cdc918b370eda67a63b2ce1a
     with:
       srcdir: src/plantuml
       outdir: images/diagrams
-      ref: e2c64fceeb01fe83b82af8ca1da25a778e0df642
+      ref: 92102d1ae89eee14cdc918b370eda67a63b2ce1a
       png: true
       svg: true
